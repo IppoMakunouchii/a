@@ -12,7 +12,9 @@ body {
     margin-left: 150px;
     transition: 0.5s;
     border: 2px solid #ffffff;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a 2px horizontal, 2px vertical, 5px blur, and 0.3 opacity shadow */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: #ff1493;   /* Pink text */
+    font-weight: bold;
 }
 
 #yesButton {
@@ -20,9 +22,9 @@ body {
     margin-right: 150px;
     border: 2px solid #ffffff;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: #ff1493;   /* Pink text */
+    font-weight: bold;
 }
-
-
 
 .header_text {
     font-family: 'Nunito';
@@ -41,7 +43,6 @@ body {
     align-items: center;
     margin-top: 55px;
     margin-left: 20px;
-    /* optional: adds some space between the buttons */
 }
 
 .btn {
@@ -65,6 +66,6 @@ body {
 .gif_container {
     display: flex;
     justify-content: center;
-    align-items: flex-end; /* Align to the bottom */
-    margin-left: 20px; /* Adjusted for consistency */
+    align-items: flex-end;
+    margin-left: 20px;
 }
