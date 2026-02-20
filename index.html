@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./Styles/styles.css">
-    <script src="./script.js" defer></script>
-    <style>
-        /* Add your existing styles here */
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Proposal</title>
 
-        /* Additional style for the note */
+    <!-- CSS -->
+    <link rel="stylesheet" href="Styles/styles.css">
+
+    <!-- Script -->
+    <script src="script.js" defer></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
         .made-with-love {
             position: fixed;
-            bottom: 10px; /* Adjust this value to move it closer to the bottom */
+            bottom: 10px;
             left: 50%;
             transform: translateX(-50%);
             text-align: center;
             color: #777;
+            font-size: 14px;
         }
 
         .github-link {
@@ -23,23 +40,31 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div>
-            <h1 class="header_text">Do you want Boy or Girl? di Pulikuttyy hehe</h1>
-        </div>
-        <div class="gif_container">
-            <img src="https://64.media.tumblr.com/44437aaa3af65ef5b5dc25b2cf1e81d1/6acc7d78ea83e207-45/s400x600/5b30035952803850ed3136fbe760ceff97ee8d19.gif" alt="Cute animated illustration">
-        </div>
-        <div class="buttons">
-            <button class="btn" id="yesButton" onclick="nextPage()">Kutty Karuvaachiiii</button>
-            <button class="btn" id="noButton" onmouseover="moveButton()">Boy</button>
+            <h1 class="header_text">Will you be my valentine? hehe</h1>
         </div>
 
-        <!-- Positioned closer to the bottom with GitHub link -->
+        <div class="gif_container">
+            <img src="https://64.media.tumblr.com/44437aaa3af65ef5b5dc25b2cf1e81d1/6acc7d78ea83e207-45/s400x600/5b30035952803850ed3136fbe760ceff97ee8d19.gif"
+                 alt="Cute animated illustration"
+                 style="max-width:100%; height:auto;">
+        </div>
+
+        <div class="buttons">
+            <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+            <!-- Changed from onmouseover to onclick for mobile -->
+            <button class="btn" id="noButton" onclick="moveButton()">No</button>
+        </div>
+
         <p class="made-with-love">
-            Love Youuuuu 💖✨. 
-            <a href="https://github.com/KanurkarPrateek/Valentines_Day_Proposal" class="github-link" target="_blank">⭐Star the repo on GitHub</a>.
+            Love Youuuuuuu 💖✨.
+            <a href="https://github.com/KanurkarPrateek/Valentines_Day_Proposal"
+               class="github-link" target="_blank">
+               ⭐Star the repo on GitHub
+            </a>
         </p>
     </div>
 </body>
