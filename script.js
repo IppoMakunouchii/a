@@ -11,7 +11,7 @@ const messages = [
     "Think once more 😭",
     "Are you sure? 😢",
     "One more chance 😭",
-    "Pleaseeee 😫"
+    "Oiii 😫"
 ];
 
 let index = 0;
