@@ -11,13 +11,17 @@ body {
     position: absolute;
     margin-left: 150px;
     transition: 0.5s;
-    /* Smooth movement */
+    color: #c4006b; /* Dark pink */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
 }
 
 #yesButton {
     position: absolute;
     margin-right: 150px;
-    /* Smooth movement */
+    color: #c4006b; /* Dark pink */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
 }
 
 .header_text, .text {
@@ -35,9 +39,8 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 40px; /* Adjusted for better spacing */
+    margin-top: 40px;
     margin-left: 20px;
-    /* optional: adds some space between the buttons */
 }
 
 .btn {
@@ -63,4 +66,3 @@ body {
     justify-content: center;
     align-items: center;
 }
-
